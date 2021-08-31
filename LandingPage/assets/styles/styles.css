@@ -1,10 +1,45 @@
 *{
-    margin: opx;
+    margin: 0px;
     padding: opx;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: ;
+    
 }
 a{
     color: unset;
+}
+header{
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+/* navbar styles */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px opx;
+    width: 90%;
+    margin: 0px auto;
+    
+    
+}
+nav .nav-item{
+    color: #fff;
+    margin: 0px 10px;
+    margin-top: 30px;
+}
+nav div.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav div.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+nav div.nav-item {
+    font-size: 1.2rem;
+    font-weight: 200;
 }
