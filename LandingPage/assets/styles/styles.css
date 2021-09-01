@@ -102,4 +102,21 @@ header div.search-box div.input{
 header div.search-box div.input input{
     width: 100%;
 }
+/* header section comlete */
+/* near by section */
+section.near-by{
+    min-height: 40vh;
+    
+}
+section.near-by div.container{
+    width: 90%;
+    margin: 0px auto;
+    
+    text-align: center;
+    padding: 40px opx;
+}
+section.near-by div.container h3{
+    font-size: 2.3rem;
+    font-weight: unset;
+}
 
