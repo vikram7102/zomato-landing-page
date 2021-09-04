@@ -169,5 +169,55 @@ section.app div.container img{
     display: block;
     max-width: 300px;
 }
+section.app div.container div.form{
+    max-width: 485px;
 
+}
+section.app div.container div.form h1{
+    font-size: 3rem ;
+    font-weight: unset;
+}
+section.app div.container div.form small{
+    display: block;
+    font-size: 1.1 rem ;
+    font-weight: 100;
+    color: #393737;
+    margin: 20px 0px;
 
+}
+section.app div.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px; 
+}
+section.app div.input input{
+    flex-grow: 70;
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    font: 1.2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 100%;
+}
+section.app div.input button{
+    height: 100%;
+    background-color: #ed5a6b;
+    border-radius: 10px;
+    color: #cfcfcf;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+section.app div.form div.download{
+    margin: 20px 0px;
+    font-weight: 100;
+    color: grey;
+
+}
+section.app div.form div.download img{
+    max-width: 150px;
+    display: inline-block;
+    margin: 5px 5px ;
+}
