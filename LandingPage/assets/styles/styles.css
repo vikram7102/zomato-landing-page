@@ -257,3 +257,58 @@ section.options div.container div ul li{
     font-size: 1.1rem;
     font-weight: 100;
 }
+footer{
+    min-height: 300px;
+    background-color: #F8F8F8;
+
+}
+footer div.container{
+        display: flex;
+        width: 90%;
+        margin: 30px auto;
+        
+}
+
+footer nav img{
+    width: 150px;
+    margin-left: 6%;
+    background-color: black;
+}
+footer div.container div{
+    margin: 30px;
+    font-size: 1.2rem;
+    
+}
+footer div.container div.fifthrow{
+    
+}
+footer div.container div  h3{
+    margin: 10px;
+    font-weight: unset;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+footer div.container div h2{
+    font-weight: unset;
+    font-size: 1.5rem;
+    
+}
+footer nav div.extra-info{
+    justify-content: space-between;
+    display: flex;
+    
+}
+footer nav div.extra-info h2{
+    border: solid;
+    border-radius: 10px;
+    
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+}
+footer nav div.extra-info h2 i{
+    color: grey;
+}
+
+
