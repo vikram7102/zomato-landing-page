@@ -302,7 +302,7 @@ footer nav div.extra-info{
 footer nav div.extra-info h2{
     border: solid;
     border-radius: 10px;
-    
+    font-weight: 100;
     margin: 10px;
     padding: 10px;
     border: 1px solid #cfcfcf;
